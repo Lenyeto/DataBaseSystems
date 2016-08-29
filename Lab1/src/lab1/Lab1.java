@@ -48,11 +48,15 @@ public class Lab1 {
                 pw.println("The unique words are : " + tmpS);
                 
                 tmpS = "";
-                for (NumberStuff i : findWords) {
-                    
+                for (NumberStuff i : findWords("text.txt", PunctuationM)) {
+                    tmpS += i.toString();
+                    tmpS += ", \n";
                 }
                 
-                pw.println("The Unique Words and Counts are : " + tmpS);
+                pw.println("The Unique Words and Counts are : \n" + tmpS);
+                
+                pw.println("The Average Word Length Is :" + FindAverageWordLength("text.txt", PunctuationM));
+                
             } catch (IOException e) {
                 
             }
@@ -102,7 +106,8 @@ public class Lab1 {
             int j = f.read();
             for (char _c : c) {
                 if (_c == j) {
-                    tmpI+=j;
+                    tmpI+=(char) j;
+                    tmpI+=", ";
                 }
             }
         }
@@ -186,11 +191,22 @@ public class Lab1 {
         List<NumberStuff> ns = new LinkedList();
         FileReader f = new FileReader(s);
         
+        List<Integer> tmp1 = new LinkedList();
+        String tmpString = "";
+        while (f.ready()) {
+            int i = f.read();
+            tmpString += (char) i;
+        }
+        tmpString = tmpString.toLowerCase();
+        for (int i = 0; i < tmpString.length(); i++) {
+            tmp1.add((int) tmpString.charAt(i));
+        }
+        
+        
+        
         boolean test = true;
         
-        int tmpI = 0;
-        while (f.ready()) {
-            tmpI = f.read();
+        for (int tmpI : tmp1) {
             for (char c : p) {
                 if (tmpI != c) {
                     
@@ -201,13 +217,14 @@ public class Lab1 {
             if (test) {
                 tmpWord+=(char) tmpI;
             } else {
-                boolean tmp = false;
+                boolean tmp = true;
                 for (int i = 0; i < ns.size(); i++) {
-                    if (ns.get(i).word == tmpWord.toLowerCase()) {
+                    if (ns.get(i).word.equals(tmpWord.toLowerCase())) {
                         ns.get(i).add();
-                        tmp = true;
+                        tmp = false;
                     }
                 }
+                
                 if (tmp) {
                     ns.add(new NumberStuff(tmpWord));
                 }
@@ -219,6 +236,22 @@ public class Lab1 {
         ns.sort(null);
         
         return ns;
+    }
+    
+    static int FindAverageWordLength (String s, char [] p) throws IOException {
+        int tmp = 0;
+        int size = 0;
+        int count = 0;
+        
+        List<String> l = findUniqueWords(s, p);
+        for (int i = 0; i < l.size(); i++) {
+            size += l.get(i).length();
+            count++;
+        }
+        
+        tmp = size / count;
+        
+        return tmp;
     }
 }
 
