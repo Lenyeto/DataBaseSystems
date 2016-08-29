@@ -10,9 +10,8 @@ import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.Stack;
-
-
 
 
 
@@ -22,7 +21,7 @@ public class Lab1 {
         try {
             char [] CapitalLetters = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
             char [] Punctuation = {'~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', '-', '=', '{', '}', '|', '[', ']', '\\', '"', '\'', ':', ';', '<', '>', '?', ',', '.', '/'};
-            char [] PunctuationM = {'~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', '-', '=', '{', '}', '|', '[', ']', '\\', '"', '\'', ':', ';', '<', '>', '?', ',', '.', '/', ' ', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '\n'};
+            char [] PunctuationM = {'~', '!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '_', '+', '-', '=', '{', '}', '|', '[', ']', '\\', '"',  ':', ';', '<', '>', '?', ',', '.', '/', ' ', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '\n'};
             char [] Numbers = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
             PrintWriter pw = new PrintWriter("result.txt", "UTF-8");
             try {
@@ -47,6 +46,13 @@ public class Lab1 {
                 }
                 pw.println("The number of unique words is " + findUniqueWords("text.txt", PunctuationM).size());
                 pw.println("The unique words are : " + tmpS);
+                
+                tmpS = "";
+                for (NumberStuff i : findWords) {
+                    
+                }
+                
+                pw.println("The Unique Words and Counts are : " + tmpS);
             } catch (IOException e) {
                 
             }
@@ -175,9 +181,9 @@ public class Lab1 {
         return listWords;
     }
     
-    static List<String> findWords(String s, char[] p) throws FileNotFoundException, IOException {
+    static List<NumberStuff> findWords(String s, char[] p) throws FileNotFoundException, IOException {
         String tmpWord = "";
-        List<String> listWords = new LinkedList();
+        List<NumberStuff> ns = new LinkedList();
         FileReader f = new FileReader(s);
         
         boolean test = true;
@@ -195,19 +201,24 @@ public class Lab1 {
             if (test) {
                 tmpWord+=(char) tmpI;
             } else {
-                if (listWords.contains(tmpWord.toLowerCase())) {
-                    
-                } else {
-                    if (tmpWord.length() > 0) {
-                        listWords.add(tmpWord.toLowerCase());
+                boolean tmp = false;
+                for (int i = 0; i < ns.size(); i++) {
+                    if (ns.get(i).word == tmpWord.toLowerCase()) {
+                        ns.get(i).add();
+                        tmp = true;
                     }
+                }
+                if (tmp) {
+                    ns.add(new NumberStuff(tmpWord));
                 }
                 tmpWord = "";
                 test = true;
             }
         }
         
-        return listWords;
+        ns.sort(null);
+        
+        return ns;
     }
 }
 
