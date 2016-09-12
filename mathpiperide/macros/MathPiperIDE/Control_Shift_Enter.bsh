@@ -1,0 +1,112 @@
+import java.io.File;
+import org.mathpiper.test.MPWSFile;
+import java.io.FieldInputStream;
+
+File mpwFile = new File(buffer.getPath());
+fileStream = new FileInputStream(mpwFile);
+foldsMap = MPWSFile.scanSourceFile(mpwFile.getPath(), fileStream);
+
+currentCaretPosition = textArea.getCaretPosition();
+
+i = 1;
+
+for(fold:foldsMap)
+{
+	foldType = fold.getType();
+	
+	if(foldType.equals("mathpiper"))
+	{
+		if (fold.getAttributes().containsKey("name")) {
+		    nameAttribute = (String) fold.getAttributes().get("name");
+		    
+			if(nameAttribute.equals("main"))
+			{
+				continue;
+			}
+		}
+		
+		System.out.println("Control Shift Enter: " + i++ + ") " + foldType);
+		
+		textArea.setCaretPosition(textArea.getLineStartOffset(fold.getStartLineNumber()));
+		
+		if(org.mathpiper.ide.mathpiperplugin.MathPiperPlugin.getHaltButtonState() == true)
+		{
+			org.gjt.sp.jedit.Macros.message(jEdit.getActiveView(),"A MathPiper evaluation is currently in progress.");
+			return;
+		}
+		
+		interpreter = org.mathpiper.interpreters.Interpreters.getSynchronousInterpreter();
+		
+		codeText = fold.getContents(); 
+		
+		codeText = codeText.replace("\\","\\\\");
+		codeText = codeText.replace("\"","\\\"");
+		
+		evaluationResponse = interpreter.evaluate("LoadScript(\"" + codeText + "\");", false);
+		
+		
+		if(evaluationResponse.isExceptionThrown())
+		{
+			exception = evaluationResponse.getException();
+			org.gjt.sp.jedit.Macros.message(jEdit.getActiveView(), exception.getMessage());
+			return;
+			
+		}
+		
+		if (fold.getAttributes().containsKey("output")) 
+		{
+		    nameAttribute = (String) fold.getAttributes().get("output");
+		    
+			if(nameAttribute.equals("imageFile"))
+			{
+				try
+				{
+					resultObject = evaluationResponse.getObject();
+					
+					if(resultObject != null && resultObject instanceof javax.swing.JComponent)
+					{
+						frame = new javax.swing.JFrame();
+						frame.setLayout(new java.awt.FlowLayout());
+						contentPane = frame.getContentPane();
+						contentPane.add(resultObject);
+						frame.pack();
+						
+						d = resultObject.getSize();
+	
+						if (d.width == 0)
+						{
+							d = resultObject.getPreferredSize();
+							resultObject.setSize( d );
+						}
+	
+						bufferedImage = new java.awt.image.BufferedImage(resultObject.getWidth(), resultObject.getHeight(), java.awt.image.BufferedImage.TYPE_INT_RGB);
+						 
+						resultObject.paint(bufferedImage.getGraphics());
+						
+						firstPartOfPath = buffer.getDirectory();
+						
+						lastPartOfPath = (String) fold.getAttributes().get("path");
+						
+						if(lastPartOfPath == null)
+						{
+							org.gjt.sp.jedit.Macros.message(jEdit.getActiveView(), "The 'path' attribute is missing.");
+							return;
+						}
+						
+						org.mathpiperide.library.ScreenCapture.writeImage(bufferedImage, firstPartOfPath + lastPartOfPath);
+					}
+				}
+				catch (Throwable e)
+				{
+					org.gjt.sp.jedit.Macros.message(jEdit.getActiveView(), e.getMessage());
+				}//end try/catch.							
+			
+				output_fold_type = "%output";
+			}
+		}
+		
+	}
+	
+}
+
+textArea.setCaretPosition(currentCaretPosition);

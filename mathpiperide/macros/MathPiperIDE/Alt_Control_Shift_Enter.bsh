@@ -1,0 +1,144 @@
+import java.io.File;
+import org.mathpiper.test.MPWSFile;
+import java.io.FieldInputStream;
+
+
+
+// Evaluate all of the mathpiper_grade folds in a worksheet.
+
+File mpwFile = new File(buffer.getPath());
+fileStream = new FileInputStream(mpwFile);
+foldsMap = org.mathpiper.test.MPWSFile.getFoldsMap( "Exercise", fileStream, "mathpiper", "exercise");
+fileStream.close();
+
+File mpwFile = new File("/home/tkosan/git/mathpiper/experimental/automatic_grading/etco1120/worksheets/sections_10_11_12_13_exercises.mpw");
+fileStream = new FileInputStream(mpwFile);
+gradesFoldsMap = org.mathpiper.test.MPWSFile.getFoldsMap( "Grade", fileStream, "mathpiper_grade");
+fileStream.close();
+
+currentCaretPosition = textArea.getCaretPosition();
+
+interpreter = org.mathpiper.interpreters.Interpreters.getSynchronousInterpreter();
+
+interpreter.evaluate("LoadScript(\"{possibleExercisePoints := 0; totalExercisePoints := 0;} ;\");", false);
+
+i = 1;
+
+resultString = "";
+
+oldTotalExercisePoints = 0;
+
+oldPossibleExercisePoints = 0;
+
+for(foldKey: new java.util.TreeSet(gradesFoldsMap.keySet()))
+{
+	
+// System.out.println("XXX " + foldKeyAndValue.getKey());
+
+
+	fold = gradesFoldsMap.get(foldKey);
+	foldType = fold.getType();
+	
+	if(foldType.equals("mathpiper_grade"))
+	{
+		if (fold.getAttributes().containsKey("name")) {
+		    nameAttribute = (String) fold.getAttributes().get("name");
+		}
+		else
+		{
+			org.gjt.sp.jedit.Macros.message(jEdit.getActiveView(),"An exercise fold is missing a \"name\" attribute.");
+		}
+		
+		exerciseFold = foldsMap.get(nameAttribute);
+		
+		
+		
+		resultString += "\n***** " + nameAttribute + " *****\n\n";
+		
+		if(exerciseFold == null)
+		{
+			resultString += "FAIL: The fold \"" + nameAttribute + "\" is missing. " + "\n\n";
+			continue;
+		}
+		
+		if(org.mathpiper.ide.mathpiperplugin.MathPiperPlugin.getHaltButtonState() == true)
+		{
+			org.gjt.sp.jedit.Macros.message(jEdit.getActiveView(),"A MathPiper evaluation is currently in progress.");
+			return;
+		}
+
+		exerciseCode = exerciseFold.getContents(); 
+		exerciseCode = exerciseCode.replace("\\","\\\\");
+		exerciseCode = exerciseCode.replace("\"","\\\"");
+		
+		evaluationResponse = interpreter.evaluate("foldCodeString := \"{" + exerciseCode + " };\";", false);
+		
+		if(evaluationResponse.isExceptionThrown())
+		{
+			exception = evaluationResponse.getException();
+			resultString += "FAIL: The fold \"" + nameAttribute + "\" threw an exception. " + " 0 points\n\n";
+			continue;
+		}
+		
+		
+		codeText = fold.getContents(); 
+		codeText = codeText.replace("\\","\\\\");
+		codeText = codeText.replace("\"","\\\"");
+		
+		evaluationResponse = interpreter.evaluate("FoldPrechecks(1500);", true);
+				
+		prechecksSideEffects = evaluationResponse.getSideEffects();
+		
+		evaluationResponse = interpreter.evaluate("LoadScript(\" {" + codeText + "}; \");",false);
+		
+		
+		if(evaluationResponse.isExceptionThrown())
+		{
+			exception = evaluationResponse.getException();
+			org.gjt.sp.jedit.Macros.message(jEdit.getActiveView(), exception.getMessage());
+			return;
+		}
+		
+		resultString += prechecksSideEffects + evaluationResponse.getSideEffects();
+		
+		possibleExercisePoints = Integer.parseInt(interpreter.getEnvironment().getGlobalState().get("possibleExercisePoints").toString());
+
+		totalExercisePoints = Integer.parseInt(interpreter.getEnvironment().getGlobalState().get("totalExercisePoints").toString());
+		
+		int diffTotalExercisePoints = totalExercisePoints - oldTotalExercisePoints;
+		
+		int diffPossibleExercisePoints = possibleExercisePoints - oldPossibleExercisePoints;
+			
+		totalPoints = "\n ====> " + diffTotalExercisePoints + "/" + diffPossibleExercisePoints + " points total, Percent: " + Math.round(((new Integer(diffTotalExercisePoints).doubleValue() / new Integer(diffPossibleExercisePoints).doubleValue()) * 100));
+		
+		oldTotalExercisePoints = totalExercisePoints;
+		
+		oldPossibleExercisePoints = possibleExercisePoints;
+		
+		resultString += totalPoints + "\n\n";
+		
+	}
+		
+}
+
+resultString += "\n\n ====> " + totalExercisePoints + "/" + possibleExercisePoints + " points total, Percent: " + Math.round(((new Integer(totalExercisePoints).doubleValue() / new Integer(possibleExercisePoints).doubleValue()) * 100));
+
+textArea.setCaretPosition(buffer.getLength());
+	
+textArea.insert("%output,preserve=\"false\"\n" + resultString + "\n%/output\n", false);
+	
+textArea.setCaretPosition(currentCaretPosition);
+
+
+Thread t = new Thread()
+{
+	 public void run()
+	 {
+		buffer.save(view,null);
+	 }
+};
+t.start();
+
+
+
+
