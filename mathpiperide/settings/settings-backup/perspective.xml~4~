@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE PERSPECTIVE SYSTEM "perspective.dtd">
+<PERSPECTIVE>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">C:\Users\William\Desktop\mathpiperide\examples\jfreechart\jfreechart_examples.mpw</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">C:\Users\William\Desktop\mathpiperide\examples\newbies_book_examples_1.mpw</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">C:\Users\William\Desktop\mathpiperide\examples\RegexGet(1).mpw</BUFFER>
+<VIEW PLAIN="FALSE">
+<PANES>
+"C:\\Users\\William\\Desktop\\mathpiperide\\examples\\RegexGet(1).mpw" buffer "C:\\Users\\William\\Desktop\\mathpiperide\\examples\\jfreechart\\jfreechart_examples.mpw" buff "C:\\Users\\William\\Desktop\\mathpiperide\\examples\\newbies_book_examples_1.mpw" buff "C:\\Users\\William\\Desktop\\mathpiperide\\examples\\RegexGet(1).mpw" buff "global" bufferset
+</PANES>
+<GEOMETRY X="398" Y="26" WIDTH="1086" HEIGHT="794" EXT_STATE="6" />
+</VIEW>
+</PERSPECTIVE>

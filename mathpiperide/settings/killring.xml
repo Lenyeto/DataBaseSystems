@@ -1,10 +1,25 @@
 <?xml version="1.1" encoding="UTF-8" ?>
 <!DOCTYPE KILLRING SYSTEM "killring.dtd">
 <KILLRING>
-<ENTRY>Write</ENTRY>
-<ENTRY>,precision=10^(-3)</ENTRY>
-<ENTRY>ie</ENTRY>
-<ENTRY>s</ENTRY>
-<ENTRY> gjZJKLgWy™¹ÉÈ‡vWW</ENTRY>
 <ENTRY>MyAppletStub()</ENTRY>
+<ENTRY> gjZJKLgWy™¹ÉÈ‡vWW</ENTRY>
+<ENTRY>s</ENTRY>
+<ENTRY>ie</ENTRY>
+<ENTRY>,precision=10^(-3)</ENTRY>
+<ENTRY>Write</ENTRY>
+<ENTRY>print</ENTRY>
+<ENTRY>^&amp;&amp;</ENTRY>
+<ENTRY>&amp;</ENTRY>
+<ENTRY>^%</ENTRY>
+<ENTRY>^</ENTRY>
+<ENTRY>e</ENTRY>
+<ENTRY>rRE</ENTRY>
+<ENTRY>^%</ENTRY>
+<ENTRY>
+
+%output
+	Result: TEST
+%/output
+</ENTRY>
+<ENTRY>f</ENTRY>
 </KILLRING>
