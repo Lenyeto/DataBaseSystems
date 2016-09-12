@@ -14,19 +14,19 @@ Load(\"/ted/checkouts/mathpiperide/src/examples/compute.pi\");
 3+5
 Load(\"/ted/checkouts/mathpiperide/src/examples/test2.pi\");
 [action]
-save
-backspace
-prev-char
 MathPiperIDE/Shift_Enter
-next-char
-insert-newline-indent
-prev-line
+save
 undo
+backspace
+insert-newline-indent
+insert-tab-indent
 paste
 cut
-next-line
 copy
-insert-tab-indent
+prev-char
+next-char
+next-line
+prev-line
 select-prev-line
 prev-word
 next-page
@@ -35,9 +35,6 @@ reload
 open-file
 Misc/Piper_Run
 [clipboard]
-\n\t\ttmpS := StringReplace(tmpS, \" hours\", \"\");\n\t\ttmpS := StringReplace(tmpS, \" hour\", \"\");
-\nregex := \"\\\\d{1,2} (minutes?|hours?)\";\ntimes := RegexGet(text, regex);\ntimesMinutes := \[\];\nForEach(s, times) {\n\t\n\ttmpS := StringReplace(s, \" minutes\", \"\");\n\ttmpS := StringReplace(tmpS, \" minute\", \"\");\n\tIf (Length(tmpS) <? 5) {\n\t\ttimesMinutes := Append(timesMinutes, StringToNumber(tmpS));\n\t} Else {\n\t\ttmpS := StringReplace(tmpS, \" hours\", \"\");\n\t\ttmpS := StringReplace(tmpS, \" hour\", \"\");\n\t\ttimesMinutes := Append(timesMinutes, StringToNumber(tmpS) * 60);\n\t};\n\t\n\t\n\t\n};
-tmpS := StringReplace(tmpS, \" hours\", \"\");\n\ttmpS := StringReplace(tmpS, \" hour\", \"\");\n\ttimesMinutes := Append(timesMinutes, StringToNumber(tmpS) * 60);
 \n\ttmpS := StringReplace(tmpS, \" minutes\", \"\");
 \n\ttmpS := StringReplace(tmpS, \" hours\", \"\");
 \n\tPrint(tmpS);
@@ -55,3 +52,6 @@ regex := \"points by \\\\w+\";\nlst := RegexGet(text, regex);\nlst2 := \[\];\nFo
 \nStringToNumber(StringReplace(s, \" points\", \"\"));
 \nRegexGet(text, regex);
 text :=\n\"\n1.   \n\nMicrosoft gets a new logo for the first time since 1987 (nwsource.com)\n141 points by cleverjake 2 hours ago | 117 comments\n2.   \n\nSelling $2,000+ Worth Of My Unfinished Book (planscope.io)\n47 points by bdunn 2 hours ago | 34 comments\n3.   \n\nVMware launches Fusion 5 (appleinsider.com)\n27 points by brolewis 1 hour ago | 29 comments\n4.   \n\nMac OS X 10.8.1 is out. (apple.com)\n9 points by mvip 18 minutes ago | 1 comment\n5.   \n\nFleksy - Awesome new predictive text input method (fleksy.com)\n59 points by nreece 3 hours ago | 46 comments\n6.   \n\nWhat HN Users Use (45% Mac, 63% Chrome) (dangrossman.info)\n49 points by johnx123-up 3 hours ago | 18 comments\n7.   \n\nParrondo\'s Paradox: How two ugly parents can make a beautiful baby (datagenetics.com)\n84 points by pavanlimo 5 hours ago | 32 comments\n8.   \n\nParalympic athletes who harm themselves to perform better (bbc.co.uk)\n23 points by darrhiggs 2 hours ago | 13 comments\n9.   \n\nThe innovations of Internet Explorer (nczonline.net)\n84 points by kalyanganjam 6 hours ago | 47 comments\n10.   \n\nMy Paleo Media Diet (oreilly.com)\n7 points by michael_fine 47 minutes ago | 1 comment\n11.   \n\nWebEngage is serving over 100 million widget requests per month (webengage.com)\n5 points by sooperman 22 minutes ago | 2 comments\n12.   \n\nMixing Objective-C and Ruby (clayallsopp.com)\n4 points by 10char 12 minutes ago | discuss\n13.   \n\nOne-molecule-thick material has big advantages (mit.edu)\n13 points by maxko87 2 hours ago | 8 comments\n14.   \n\nShould developers be sued for security holes? (techrepublic.com)\n6 points by fwdbureau 48 minutes ago | 10 comments\n15.   \n\nThird-party compilers locked out of Windows Runtime development (itwriting.com)\n25 points by mariuz 3 hours ago | 13 comments\n16.   \n\nAn IP lawyer on patents, trolls, and entrepreneurship (inc.com)\n17 points by VanL 2 hours ago | 8 comments\n17.   \n\nUsing RubyMotion to Build JavaScript Based iOS Apps (willprater.me)\n22 points by jballanc 2 hours ago | 7 comments\n18.   \n\nHow YC S12 Companies Make Money (imranghory.org)\n44 points by ig1 5 hours ago | 12 comments\n19.   \n\nBlack Widow (dcurt.is)\n195 points by bradgessler 13 hours ago | 45 comments\n20.   \n\nCalifornia state legislature approves Location Privacy Act (arstechnica.com)\n20 points by iProject 3 hours ago | 1 comment\n21.   \n\nIntroducing Tent - the decentralized social web (tent.io)\n408 points by Titanous 21 hours ago | 204 comments\n22.   \n\nFred Wilson says venture capital funds have gotten too big (technologyreview.com)\n31 points by kevinpacheco 5 hours ago | 19 comments\n23.   \n\nHacker News is 44% 18-24 year olds, 77% male (pingdom.com)\n126 points by luigi 12 hours ago | 74 comments\n24.   \n\nJohn Carmack discusses the art and science of software engineering (uw.edu)\n9 points by gb 22 minutes ago | 2 comments\n25.   \n\nWhat the heck does pythonic mean? (halitalptekin.tumblr.com)\n26 points by digitall 5 hours ago | 13 comments\n26.   \n\nJSON+UDP+DHT=Freedom (telehash.org)\n139 points by nmcfarl 13 hours ago | 36 comments\n27.   \n\nTwitter cuts off “find friends” access to Tumblr (marco.org)\n173 points by rsobers 15 hours ago | 68 comments\n28.   \n\nShow HN: Fowndr.com Launched - A community of startup founders (stugreen.com)\n24 points by stulogy 5 hours ago | 11 comments\n29.   \n\nTyping Practice for Programmers (typing.io)\n271 points by mofeeta 21 hours ago | 201 comments\n30.   \n\nIntroduction to jQuery UI Training Course (w/ 19 free videos) (mrbool.com)\n10 points by PatriciaLopes 1 hour ago | 2 comments\n\";\n\nTrue;\n\n%/mathpiper\n\n   %output,preserve=\"false\"\n     Result: True\n.   %/output\n
+//Press <shift><enter> in this window to run me.
+Plot2D(Sin(x)/x,-10:10)
+create a list of all even integers from 2 to 20 and compute the product of all those integers except those divisible by 3

@@ -1,34 +1,11 @@
 <?xml version="1.1" encoding="UTF-8" ?>
 <!DOCTYPE KILLRING SYSTEM "killring.dtd">
 <KILLRING>
-<ENTRY>print</ENTRY>
-<ENTRY>A</ENTRY>
-<ENTRY>"Avearge </ENTRY>
-<ENTRY>Onca</ENTRY>
-<ENTRY>number </ENTRY>
-<ENTRY>tmpI</ENTRY>
-<ENTRY>sStr</ENTRY>
-<ENTRY>T</ENTRY>
-<ENTRY>    %output,sequence="1",timestamp="2016-09-12 16:43:50.208",preserve="false"
-      Result: ["by cleverjake","by bdunn","by brolewis","by mvip","by nreece","by johnx123","by pavanlimo","by darrhiggs","by kalyanganjam","by michael_fine","by sooperman","by 10char","by maxko87","by fwdbureau","by mariuz","by VanL","by jballanc","by ig1","by bradgessler","by iProject","by Titanous","by kevinpacheco","by luigi","by gb","by digitall","by nmcfarl","by rsobers","by stulogy","by mofeeta","by PatriciaLopes"]
-      
-      Side Effects:
-      "30 number of total articles"
-      "List of usernames"
-      ["cleverjake","bdunn","brolewis","mvip","nreece","johnx123","pavanlimo","darrhiggs","kalyanganjam","michael_fine","sooperman","10char","maxko87","fwdbureau","mariuz","VanL","jballanc","ig1","bradgessler","iProject","Titanous","kevinpacheco","luigi","gb","digitall","nmcfarl","rsobers","stulogy","mofeeta","PatriciaLopes"]
-      "408 is the max points by the user Titanous"
-      69.93333333
-      "Oldest Article in Minutes"
-      1260
-      "Newest Article in Minutes"
-      12
-      
-.   %/output</ENTRY>
-<ENTRY>    %info,sequence="2",timestamp="2016-09-12 16:47:08.279",preserve="false"
+<ENTRY>    %info,sequence="111",timestamp="2016-09-12 16:35:33.532",preserve="false"
       Processing...
 .   %/info</ENTRY>
-<ENTRY>    %error,sequence="2",timestamp="2016-09-12 16:47:08.279",preserve="false"
-      Result: Error encountered during parsing: Expected a ***( ) )*** close parentheses token for sub-expression but found ***( ; )*** instead.  Error on or before line 494 starting at index 80.
+<ENTRY>    %error,sequence="111",timestamp="2016-09-12 16:35:33.532",preserve="false"
+      Result: The name &lt;Break&gt; is a function that cannot be evaluated without arguments.  Error on or before line 454 starting at index 15.
       
       Side Effects:
       "30 number of total articles"
@@ -36,18 +13,49 @@
       ["cleverjake","bdunn","brolewis","mvip","nreece","johnx123","pavanlimo","darrhiggs","kalyanganjam","michael_fine","sooperman","10char","maxko87","fwdbureau","mariuz","VanL","jballanc","ig1","bradgessler","iProject","Titanous","kevinpacheco","luigi","gb","digitall","nmcfarl","rsobers","stulogy","mofeeta","PatriciaLopes"]
       "408 is the max points by the user Titanous"
       69.93333333
-      "Oldest Article in Minutes"
-      1260
-      "Newest Article in Minutes"
-      12
+      "2 hours"
+      "2"
+      "2 hours"
+      "2"
+      "1 hour"
+      "1"
+      "18"
       
 .   %/error</ENTRY>
-<ENTRY>    %info,sequence="3",timestamp="2016-09-12 16:47:22.452",preserve="false"
+<ENTRY>    %info,sequence="112",timestamp="2016-09-12 16:36:22.371",preserve="false"
       Processing...
 .   %/info</ENTRY>
-<ENTRY>2</ENTRY>
-<ENTRY>re</ENTRY>
-<ENTRY>    %output,sequence="3",timestamp="2016-09-12 16:47:22.452",preserve="false"
+<ENTRY>    %output,sequence="112",timestamp="2016-09-12 16:36:22.371",preserve="false"
+      Result: ["by cleverjake","by bdunn","by brolewis","by mvip","by nreece","by johnx123","by pavanlimo","by darrhiggs","by kalyanganjam","by michael_fine","by sooperman","by 10char","by maxko87","by fwdbureau","by mariuz","by VanL","by jballanc","by ig1","by bradgessler","by iProject","by Titanous","by kevinpacheco","by luigi","by gb","by digitall","by nmcfarl","by rsobers","by stulogy","by mofeeta","by PatriciaLopes"]
+      
+      Side Effects:
+      "30 number of total articles"
+      "List of usernames"
+      ["cleverjake","bdunn","brolewis","mvip","nreece","johnx123","pavanlimo","darrhiggs","kalyanganjam","michael_fine","sooperman","10char","maxko87","fwdbureau","mariuz","VanL","jballanc","ig1","bradgessler","iProject","Titanous","kevinpacheco","luigi","gb","digitall","nmcfarl","rsobers","stulogy","mofeeta","PatriciaLopes"]
+      "408 is the max points by the user Titanous"
+      69.93333333
+      "2 hours"
+      "2"
+      "2 hours"
+      "2"
+      "1 hour"
+      "1"
+      "18"
+      "Oldest Article in Minutes"
+      120
+      "Newest Article in Minutes"
+      18
+      
+.   %/output</ENTRY>
+<ENTRY>    %info,sequence="113",timestamp="2016-09-12 16:36:39.489",preserve="false"
+      Processing...
+.   %/info</ENTRY>
+<ENTRY> (minutes?|hours?)</ENTRY>
+<ENTRY>(</ENTRY>
+<ENTRY>H</ENTRY>
+<ENTRY>, </ENTRY>
+<ENTRY>\</ENTRY>
+<ENTRY>    %output,sequence="113",timestamp="2016-09-12 16:36:39.489",preserve="false"
       Result: ["by cleverjake","by bdunn","by brolewis","by mvip","by nreece","by johnx123","by pavanlimo","by darrhiggs","by kalyanganjam","by michael_fine","by sooperman","by 10char","by maxko87","by fwdbureau","by mariuz","by VanL","by jballanc","by ig1","by bradgessler","by iProject","by Titanous","by kevinpacheco","by luigi","by gb","by digitall","by nmcfarl","by rsobers","by stulogy","by mofeeta","by PatriciaLopes"]
       
       Side Effects:
@@ -57,16 +65,24 @@
       "408 is the max points by the user Titanous"
       69.93333333
       "Oldest Article in Minutes"
-      1260
+      120
       "Newest Article in Minutes"
-      12
-      "Average age of articles is 309.6333333"
+      18
       
 .   %/output</ENTRY>
-<ENTRY>    %info,sequence="4",timestamp="2016-09-12 16:50:02.339",preserve="false"
+<ENTRY>    %info,sequence="114",timestamp="2016-09-12 16:37:22.572",preserve="false"
       Processing...
 .   %/info</ENTRY>
-<ENTRY>    %output,sequence="4",timestamp="2016-09-12 16:50:02.339",preserve="false"
+<ENTRY>rint</ENTRY>
+<ENTRY>pPP</ENTRY>
+<ENTRY>    %info,sequence="115",timestamp="2016-09-12 16:39:47.274",preserve="false"
+      Processing...
+.   %/info</ENTRY>
+<ENTRY>Break();</ENTRY>
+<ENTRY>i</ENTRY>
+<ENTRY>
+Print(times);</ENTRY>
+<ENTRY>    %output,sequence="115",timestamp="2016-09-12 16:39:47.274",preserve="false"
       Result: ["by cleverjake","by bdunn","by brolewis","by mvip","by nreece","by johnx123","by pavanlimo","by darrhiggs","by kalyanganjam","by michael_fine","by sooperman","by 10char","by maxko87","by fwdbureau","by mariuz","by VanL","by jballanc","by ig1","by bradgessler","by iProject","by Titanous","by kevinpacheco","by luigi","by gb","by digitall","by nmcfarl","by rsobers","by stulogy","by mofeeta","by PatriciaLopes"]
       
       Side Effects:
@@ -75,16 +91,12 @@
       ["cleverjake","bdunn","brolewis","mvip","nreece","johnx123","pavanlimo","darrhiggs","kalyanganjam","michael_fine","sooperman","10char","maxko87","fwdbureau","mariuz","VanL","jballanc","ig1","bradgessler","iProject","Titanous","kevinpacheco","luigi","gb","digitall","nmcfarl","rsobers","stulogy","mofeeta","PatriciaLopes"]
       "408 is the max points by the user Titanous"
       69.93333333
+      ["2 hours","2 hours","1 hour","18 minutes","3 hours","3 hours","5 hours","2 hours","6 hours","47 minutes","22 minutes","12 minutes","2 hours","48 minutes","3 hours","2 hours","2 hours","5 hours","13 hours","3 hours","21 hours","5 hours","12 hours","22 minutes","5 hours","13 hours","15 hours","5 hours","21 hours","1 hour"]
       "Oldest Article in Minutes"
-      1260
+      120
       "Newest Article in Minutes"
-      12
-      "Average age of articles is 309.6333333 minutes"
+      18
       
 .   %/output</ENTRY>
-<ENTRY>    %info,sequence="5",timestamp="2016-09-12 16:50:14.033",preserve="false"
-      Processing...
-.   %/info</ENTRY>
-<ENTRY>)</ENTRY>
-<ENTRY>Print(</ENTRY>
+<ENTRY>ocessing...</ENTRY>
 </KILLRING>

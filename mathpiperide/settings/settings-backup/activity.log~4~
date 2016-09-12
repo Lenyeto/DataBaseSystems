@@ -1,0 +1,609 @@
+Log file created on Mon Sep 12 14:01:08 EDT 2016
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+2:01:08 PM [main] [message] Log: When reporting bugs, please include the following information:
+2:01:08 PM [main] [message] Log: java.version=1.8.0_60
+2:01:08 PM [main] [message] Log: java.vm.version=25.60-b23
+2:01:08 PM [main] [message] Log: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2:01:08 PM [main] [message] Log: java.runtime.version=1.8.0_60-b27
+2:01:08 PM [main] [message] Log: java.runtime.name=Java(TM) SE Runtime Environment
+2:01:08 PM [main] [message] Log: java.vendor=Oracle Corporation
+2:01:08 PM [main] [message] Log: java.compiler=null
+2:01:08 PM [main] [message] Log: os.name=Windows 10
+2:01:08 PM [main] [message] Log: os.version=10.0
+2:01:08 PM [main] [message] Log: os.arch=amd64
+2:01:08 PM [main] [message] Log: user.home=.
+2:01:08 PM [main] [message] Log: java.home=C:\Program Files\Java\jre1.8.0_60
+2:01:08 PM [main] [message] Log: java.class.path=./jedit.jar;./mathpiper_initialization;./jars/mathpiperide_library.jar;./jars/u6502_plugin.jar;./non_plugin_jars/mpreduce.jar;./non_plugin_jars/jcommon-1.0.16.jar;./non_plugin_jars/jfreechart-1.0.13.jar;./non_plugin_jars/mathpiper.jar;./non_plugin_jars/geogebra.jar;./non_plugin_jars/geogebra_algos.jar;./non_plugin_jars/geogebra_cas.jar;./non_plugin_jars/geogebra_export.jar;./non_plugin_jars/geogebra_gui.jar;./non_plugin_jars/geogebra_main.jar;./non_plugin_jars/geogebra_properties.jar;./non_plugin_jars/geogebra_javascript.jar;./non_plugin_jars/jlatexmath-mp-1.0.2.jar;./non_plugin_jars/jdom.jar;./non_plugin_jars/abcl.jar;./non_plugin_jars/hsqldb.jar;./non_plugin_jars/sqltool.jar;./non_plugin_jars/jlog.jar;./non_plugin_jars/jlatexmath.jar;./non_plugin_jars/jlm_cyrillic.jar;./non_plugin_jars/jlm_greek.jar;./non_plugin_jars/jpl.jar;./non_plugin_jars/asciidoctorj-1.5.0.jar;./non_plugin_jars/slf4j-api-1.7.7.jar;./non_plugin_jars/slf4j-simple-1.7.7.jar;./non_plugin_jars/jruby-complete-1.7.16.1.jar;./non_plugin_jars/ganymed-ssh2-build210.jar;./non_plugin_jars/plantuml.jar;./non_plugin_jars/svgsalamander.jar
+2:01:08 PM [main] [message] jEdit: starting with command line arguments: -noserver -settings=./settings
+2:01:08 PM [main] [debug] jEdit: before splash screen activation:28 ms
+2:01:08 PM [main] [debug] jEdit: after splash screen activation:28 ms
+2:01:08 PM [main] [debug] MiscUtilities: Saving backup of file "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\activity.log" to "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\settings-backup\activity.log~1~"
+2:01:08 PM [main] [notice] jEdit: jEdit version 5.2.0
+2:01:08 PM [main] [message] jEdit: Settings directory is C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings
+2:01:08 PM [main] [message] jEdit: jEdit home directory is C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide
+2:01:08 PM [main] [message] BeanShell: Beanshell Init
+2:01:08 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+2:01:08 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+2:01:08 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+2:01:08 PM [main] [debug] ActionSet: Loading actions from jar:file:/C:/Users/William/Desktop/Database/DataBaseSystems/mathpiperide/jedit.jar!/org/gjt/sp/jedit/actions.xml
+2:01:08 PM [main] [debug] DockableWindowManager: Loading dockables from jar:file:/C:/Users/William/Desktop/Database/DataBaseSystems/mathpiperide/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+2:01:08 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:01:08 PM [main] [notice] jEdit: Loading plugins from C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars
+2:01:08 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\AppleJavaExtensions.jar]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\bsh-2.0b4.jar]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.2.4,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.3.0,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\Calculator.jar,class=ise.plugin.calculator.CalculatorPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.6,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\Code2HTML.jar,class=code2html.Code2HTMLPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.5,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\CommonControls.jar,class=CommonControlsPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.6.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ConfigurableFoldHandler.jar,class=configurablefoldhandler.ConfigurableFoldHandlerPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=5.1.2,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\Console.jar,class=console.ConsolePlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=2.1,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ErrorList.jar,class=errorlist.ErrorListPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\geogebra_plugin.jar,class=org.mathpiper.ide.geogebraplugin.GeoGebraPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.0.1,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\GnuRegexp.jar,class=GnuRegexpPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.6.2,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\InfoViewer.jar,class=infoviewer.InfoViewerPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=3.3.0,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\JDiffPlugin.jar,class=jdiff.JDiffPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\jfreechart_plugin.jar,class=org.mathpiper.ide.jfreechartplugin.JFreeChartPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\jlog_plugin.jar,class=org.mathpiper.ide.jlogplugin.JLogPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\kappalayout.jar]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.5.9,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\LaTeXTools.jar,class=uk.co.antroy.latextools.LaTeXPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=0.1.0,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\MarkdownPlugin.jar,class=ua.pico.jedit.markdown.MarkdownPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiperide_library.jar]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiperstate_plugin.jar,class=org.mathpiper.ide.mathpiperstateplugin.MathPiperStatePlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiper_docs_plugin.jar,class=org.mathpiper.ide.mathpiperdocsplugin.MathPiperDocsPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiper_plugin.jar,class=org.mathpiper.ide.mathpiperplugin.MathPiperPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mpreduce_plugin.jar,class=org.mathpiper.ide.mpreduceplugin.MPReducePlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\parboiled4j-0.9.9.0.jar]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=null,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\pegdown-0.8.5.4.jar]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=3.5.1,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.4,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\SideKick.jar,class=sidekick.SideKickPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\sqldb_plugin.jar,class=org.mathpiper.ide.sqldbplugin.SQLDBPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\threedxplormathj_plugin.jar,class=org.mathpiper.ide.threedxplormathjplugin.ThreeDXplorMathJPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\u6502_plugin.jar,class=org.mathpiper.ide.u6502plugin.U6502Plugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=1.0.8,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\wolfram_plugin.jar,class=org.mathpiper.ide.wolframplugin.WolframPlugin]
+2:01:09 PM [main] [notice] jEdit: Loading plugins from C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\jars
+2:01:09 PM [main] [message] HistoryModel: Loading history
+2:01:09 PM [main] [message] BufferHistory: Loading C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\recent.xml
+2:01:09 PM [main] [message] KillRing: Loading C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\killring.xml
+2:01:09 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+2:01:09 PM [main] [debug] jEdit: SOCKS proxy disabled
+2:01:09 PM [main] [debug] jEdit: HTTP proxy disabled
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+2:01:09 PM [main] [message] jEdit: Loading mode catalog file C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\catalog
+2:01:09 PM [main] [message] jEdit: Loading mode catalog file C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\modes\catalog
+2:01:09 PM [main] [debug] PluginJAR: Activating buffertabs.BufferTabsPlugin because of startup
+2:01:09 PM [main] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\BufferTabs.jar
+2:01:09 PM [main] [debug] PluginJAR: Activating code2html.Code2HTMLPlugin because of startup
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.2.4,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+2:01:09 PM [main] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\Code2HTML.jar
+2:01:09 PM [main] [debug] PluginJAR: Activating console.ConsolePlugin because of startup
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=0.6,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\Code2HTML.jar,class=code2html.Code2HTMLPlugin]
+2:01:09 PM [main] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\Console.jar
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:01:09 PM [main] [debug] ConsolePlugin: Loaded 17 Actions
+2:01:09 PM [main] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ErrorList.jar
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=2.1,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ErrorList.jar,class=errorlist.ErrorListPlugin]
+2:01:09 PM [main] [debug] PluginJAR: Activating GnuRegexpPlugin because of startup
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:01:09 PM [main] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\GnuRegexp.jar
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=5.1.2,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\Console.jar,class=console.ConsolePlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:01:09 PM [main] [debug] PluginJAR: Activating infoviewer.InfoViewerPlugin because of startup
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.0.1,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\GnuRegexp.jar,class=GnuRegexpPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:01:09 PM [main] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\InfoViewer.jar
+2:01:09 PM [main] [debug] PluginJAR: Activating org.mathpiper.ide.jfreechartplugin.JFreeChartPlugin because of startup
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.6.2,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\InfoViewer.jar,class=infoviewer.InfoViewerPlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:01:09 PM [main] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\jfreechart_plugin.jar
+2:01:09 PM [main] [notice] main: Initializing CAS... 
+2:01:09 PM [main] [notice] main: done. 
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\jfreechart_plugin.jar,class=org.mathpiper.ide.jfreechartplugin.JFreeChartPlugin]
+2:01:09 PM [main] [debug] PluginJAR: Activating org.mathpiper.ide.mathpiperstateplugin.MathPiperStatePlugin because of startup
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:01:09 PM [main] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiperstate_plugin.jar
+2:01:09 PM [main] [debug] PluginJAR: Activating org.mathpiper.ide.mathpiperplugin.MathPiperPlugin because of startup
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiperstate_plugin.jar,class=org.mathpiper.ide.mathpiperstateplugin.MathPiperStatePlugin]
+2:01:09 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:01:09 PM [main] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiper_plugin.jar
+2:01:10 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiper_plugin.jar,class=org.mathpiper.ide.mathpiperplugin.MathPiperPlugin]
+2:01:10 PM [main] [debug] PluginJAR: Activating projectviewer.ProjectPlugin because of startup
+2:01:10 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:01:10 PM [main] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ProjectViewer.jar
+2:01:10 PM [main] [debug] PluginJAR: Activating sidekick.SideKickPlugin because of startup
+2:01:10 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=3.5.1,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+2:01:10 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:01:10 PM [main] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\SideKick.jar
+2:01:10 PM [main] [debug] PluginJAR: Activating org.mathpiper.ide.threedxplormathjplugin.ThreeDXplorMathJPlugin because of startup
+2:01:10 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.4,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\SideKick.jar,class=sidekick.SideKickPlugin]
+2:01:10 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:01:10 PM [main] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\threedxplormathj_plugin.jar
+2:01:10 PM [main] [debug] PluginJAR: Activating voxspellcheck.VoxSpellPlugin because of startup
+2:01:10 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\threedxplormathj_plugin.jar,class=org.mathpiper.ide.threedxplormathjplugin.ThreeDXplorMathJPlugin]
+2:01:10 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:01:10 PM [main] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\VoxSpell.jar
+2:01:10 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=1.0.8,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+2:01:10 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:01:10 PM [main] [debug] Macros: Registered beanshell macro handler
+2:01:10 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+2:01:10 PM [main] [message] BeanShell: Running script C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\startup\getGraphicsEnvironment.bsh
+2:01:10 PM [main] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\text.xml
+2:01:10 PM [main] [message] BeanShell: Running script C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\startup\mathrider_startup.bsh
+2:01:10 PM [main] [message] BeanShell: Running script C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\startup\startup.bsh
+2:01:10 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+2:01:10 PM [main] [message] BeanShell: Running script C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\startup\mathrider_startup.bsh
+2:01:10 PM [main] [debug] jEdit: main done:2068 ms
+2:01:10 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\perspective.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\mathpiperide.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\mathpiper.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\mathpiperdocs.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\mathpipertrace.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\mathpiperideoutput.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\s19.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\s19.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\tex.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\lisp.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\prolog.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\clojure.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\java.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\xml.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\xml.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\html.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\css.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\javascript.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\javascript.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\coffeescript.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\javascript.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\python.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\ruby.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\vbscript.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\xq.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\xml.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\css.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\javascript.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\javascript.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\uasm65.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\latex.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\pg-sql.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\regex.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\markdown.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\html.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\xml.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\css.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\javascript.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\javascript.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\ruby.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\asciidoc.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\wolfram.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\mathpiper.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\mathpiperdocs.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\mathpipertrace.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\mathpiperideoutput.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\s19.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\tex.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\lisp.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\prolog.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\clojure.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\java.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\xml.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\html.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\xml.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\css.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\javascript.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\javascript.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\xml.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\uasm65.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\s19.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\latex.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\pg-sql.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\regex.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\markdown.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\html.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\xml.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\css.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\javascript.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\javascript.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\ruby.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\asciidoc.xml
+2:01:10 PM [AWT-EventQueue-0] [notice] jEdit$4: Loading edit mode C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\modes\wolfram.xml
+2:01:10 PM [AWT-EventQueue-0] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ConfigurableFoldHandler.jar
+2:01:11 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\mathpiperide\examples\)]
+2:01:11 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\mathpiperide\examples\)]
+2:01:11 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\mathpiperide\examples\)]
+2:01:11 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\mathpiperide\examples\)]
+2:01:11 PM [AWT-EventQueue-0] [debug] BufferSet: 996239521: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+2:01:11 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:01:11 PM [AWT-EventQueue-0] [debug] BufferSet: 996239521 addBufferAt(RegexGet(1).mpw (%USERPROFILE%\Desktop\mathpiperide\examples\),-1)
+2:01:11 PM [AWT-EventQueue-0] [debug] BufferSet: 996239521: Buffer added RegexGet(1).mpw (%USERPROFILE%\Desktop\mathpiperide\examples\) at 0
+2:01:11 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:01:11 PM [AWT-EventQueue-0] [debug] BufferSet: 996239521: Buffer added RegexGet(1).mpw (%USERPROFILE%\Desktop\mathpiperide\examples\) at 0
+2:01:11 PM [AWT-EventQueue-0] [debug] BufferSet: 996239521: addBufferSetListener buffertabs.BufferTabs[RegexGet(1).mpw]
+2:01:11 PM [AWT-EventQueue-0] [debug] BufferSet: 996239521 addBufferAt(RegexGet(1).mpw (%USERPROFILE%\Desktop\mathpiperide\examples\),0)
+2:01:11 PM [AWT-EventQueue-0] [debug] BufferSet: 996239521 addBufferAt(RegexGet(1).mpw (%USERPROFILE%\Desktop\mathpiperide\examples\),1)
+2:01:11 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+2:01:11 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:01:11 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@3ca31a7f
+2:01:11 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:01:11 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+2:01:11 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 2601 ms
+2:01:11 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=0.6.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ConfigurableFoldHandler.jar,class=configurablefoldhandler.ConfigurableFoldHandlerPlugin]
+2:01:11 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:01:11 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:01:11 PM [AWT-EventQueue-0] [debug] DockableWindowManager: Loading dockables from jeditresource:/mathpiper_plugin.jar!/dockables.xml
+2:01:11 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=mathpiper,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:01:11 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+2:01:13 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:01:13 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:01:13 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:01:13 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:01:16 PM [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jar:file:/C:/Users/William/Desktop/Database/DataBaseSystems/mathpiperide/jedit.jar!/org/gjt/sp/jedit/browser.actions.xml
+2:01:16 PM [jEdit Worker #0] [error] ErrorListDialog$ErrorEntry: C:\Users\William\Desktop\mathpiperide\examples\:
+2:01:16 PM [jEdit Worker #0] [error] ErrorListDialog$ErrorEntry: Cannot list directory.
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaDropHandler: Drag enter
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:35 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:36 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:36 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:36 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: Import data
+2:01:36 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: canImport() returning true
+2:01:36 PM [AWT-EventQueue-0] [debug] TextAreaTransferHandler: => File list
+2:01:36 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:01:36 PM [AWT-EventQueue-0] [debug] BufferSet: 996239521 addBufferAt(RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\),-1)
+2:01:36 PM [AWT-EventQueue-0] [debug] BufferSet: 996239521: Buffer added RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\) at 0
+2:01:36 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:01:36 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:01:36 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:01:36 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:01:36 PM [AWT-EventQueue-0] [debug] BufferSet: 996239521 addBufferAt(RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\),-1)
+2:01:36 PM [AWT-EventQueue-0] [debug] TextAreaDropHandler: Drop
+2:01:36 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:01:36 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:01:36 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:01:36 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@180d0dbd
+2:01:36 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:01:36 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:01:36 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:01:36 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:01:39 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\perspective.xml" to "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\settings-backup\perspective.xml~1~"
+2:01:39 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:01:39 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:01:39 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:01:39 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:01:39 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@856885b
+2:01:39 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:01:39 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\mathpiperide\examples\)]
+2:01:39 PM [AWT-EventQueue-0] [debug] BufferSet: 996239521: Buffer removed RegexGet(1).mpw (%USERPROFILE%\Desktop\mathpiperide\examples\)
+2:01:39 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:01:39 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:01:39 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active]]
+2:01:39 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:01:39 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@7f45e480
+2:01:39 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:01:39 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\mathpiperide\examples\)]
+2:01:40 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:02:09 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\perspective.xml" to "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\settings-backup\perspective.xml~1~"
+2:10:38 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:10:38 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:10:38 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:10:38 PM [AWT-EventQueue-0] [debug] DockableWindowManager: Loading dockables from jeditresource:/ErrorList.jar!/dockables.xml
+2:10:39 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=error-list,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:10:40 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=log-viewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:10:40 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=error-list,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:10:42 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=log-viewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:10:42 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=PROPERTIES_CHANGED,dockable=log-viewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:10:42 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=log-viewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:10:46 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=error-list,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:10:46 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=mathpiper,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:10:56 PM [AWT-EventQueue-0] [debug] DockableWindowManager: Loading dockables from jeditresource:/threedxplormathj_plugin.jar!/dockables.xml
+2:10:56 PM [AWT-EventQueue-0] [notice] AWT-EventQueue-0: null
+2:10:56 PM [AWT-EventQueue-0] [notice] AWT-EventQueue-0: null
+2:10:56 PM [AWT-EventQueue-0] [notice] AWT-EventQueue-0: null
+2:10:56 PM [AWT-EventQueue-0] [notice] AWT-EventQueue-0: null
+2:10:56 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: Sep 12, 2016 2:10:56 PM java.util.prefs.WindowsPreferences <init>
+2:10:56 PM [AWT-EventQueue-0] [error] AWT-EventQueue-0: WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+2:10:56 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=threedxplormathj,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:11:10 PM [AWT-EventQueue-0] [debug] DockableWindowManager: Loading dockables from jeditresource:/mathpiper_docs_plugin.jar!/dockables.xml
+2:11:10 PM [AWT-EventQueue-0] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiper_docs_plugin.jar
+2:11:11 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=mathpiperdocs,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:11:11 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiper_docs_plugin.jar,class=org.mathpiper.ide.mathpiperdocsplugin.MathPiperDocsPlugin]
+2:11:11 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:11:14 PM [AWT-EventQueue-0] [debug] DockableWindowManager: Loading dockables from jeditresource:/jfreechart_plugin.jar!/dockables.xml
+2:11:14 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=jfreechart,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:11:14 PM [AWT-EventQueue-0] [debug] JARClassLoader: Would have returned null for getResource(org/jfree/base/jcommon.properties)
+2:11:14 PM [AWT-EventQueue-0] [debug] JARClassLoader: returning(jar:file:/C:/Users/William/Desktop/Database/DataBaseSystems/mathpiperide/non_plugin_jars/jcommon-1.0.16.jar!/org/jfree/base/jcommon.properties)
+2:11:15 PM [AWT-EventQueue-0] [debug] DockableWindowManager: Loading dockables from jeditresource:/mathpiperstate_plugin.jar!/dockables.xml
+2:11:15 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=mathpiperstate,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:11:17 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=log-viewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,invalid,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:11:20 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:11:24 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:11:24 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:24 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:24 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:24 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:24 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:11:24 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@5aec6eb5
+2:11:24 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:11:27 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:11:27 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:11:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:27 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:27 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:11:27 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@52536690
+2:11:27 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:11:29 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:11:29 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:29 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:29 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:29 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:11:29 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@1eccd4d2
+2:11:29 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:30 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:11:30 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@42c9c1a2
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:30 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:11:30 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@3f92eda9
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:30 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:11:30 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@6b62828f
+2:11:30 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:31 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:11:31 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@20248191
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:31 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:11:31 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@615a8496
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:31 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:11:31 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@8a1c9b7
+2:11:31 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:11:32 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:11:32 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:32 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:32 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:32 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:11:32 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@d9c6d71
+2:11:32 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:11:44 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:11:44 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:11:44 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:44 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:44 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:11:44 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:11:44 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@71602ec
+2:11:44 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:11:54 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:11:56 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:11:57 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:11:57 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:11:58 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:00 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:13 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:13 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:15 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:12:28 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:29 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:35 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:41 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:12:41 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:12:41 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:12:41 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:12:41 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\examples,source=null]
+2:12:41 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\examples\RegexGet(1).mpw,source=null]
+2:12:45 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:12:46 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:12:46 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:12:46 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:12:46 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:12:46 PM [AWT-EventQueue-0] [debug] SideKick: No parser
+2:12:46 PM [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@7f0448b6
+2:12:46 PM [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+2:13:45 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:13:45 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:13:46 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:13:47 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:13:47 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:13:47 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:13:47 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:13:47 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\examples,source=null]
+2:13:47 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\examples\RegexGet(1).mpw,source=null]
+2:13:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:13:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:13:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:13:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:13:49 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)]
+2:13:49 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\examples,source=null]
+2:13:49 PM [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\examples\RegexGet(1).mpw,source=null]
+2:13:50 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:13:50 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:13:51 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:13:51 PM [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+2:13:51 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:13:52 PM [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active]]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:17:07 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=DEACTIVATED,dockable=log-viewer,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,36,2560x1294,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+2:17:07 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\perspective.xml
+2:17:07 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\perspective.xml" to "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\settings-backup\perspective.xml~1~"
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+2:17:07 PM [AWT-EventQueue-0] [debug] BufferSet: 996239521: Buffer removed RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\)
+2:17:07 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:RegexGet(1).mpw (%USERPROFILE%\Desktop\Database\DataBaseSystems\mathpiperide\examples\) is in no bufferSet anymore, closing it
+2:17:07 PM [AWT-EventQueue-0] [debug] BufferSet: 996239521: removeBufferSetListener buffertabs.BufferTabs[]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\AppleJavaExtensions.jar]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\bsh-2.0b4.jar]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.2.4,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.2.4,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.3.0,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\Calculator.jar,class=ise.plugin.calculator.CalculatorPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=0.6,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\Code2HTML.jar,class=code2html.Code2HTMLPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.6,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\Code2HTML.jar,class=code2html.Code2HTMLPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.5,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\CommonControls.jar,class=CommonControlsPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=0.6.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ConfigurableFoldHandler.jar,class=configurablefoldhandler.ConfigurableFoldHandlerPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.6.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ConfigurableFoldHandler.jar,class=configurablefoldhandler.ConfigurableFoldHandlerPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=5.1.2,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\Console.jar,class=console.ConsolePlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=5.1.2,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\Console.jar,class=console.ConsolePlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=2.1,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ErrorList.jar,class=errorlist.ErrorListPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=2.1,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ErrorList.jar,class=errorlist.ErrorListPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\geogebra_plugin.jar,class=org.mathpiper.ide.geogebraplugin.GeoGebraPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.0.1,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\GnuRegexp.jar,class=GnuRegexpPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.0.1,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\GnuRegexp.jar,class=GnuRegexpPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.6.2,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\InfoViewer.jar,class=infoviewer.InfoViewerPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.6.2,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\InfoViewer.jar,class=infoviewer.InfoViewerPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=3.3.0,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\JDiffPlugin.jar,class=jdiff.JDiffPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\jfreechart_plugin.jar,class=org.mathpiper.ide.jfreechartplugin.JFreeChartPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\jfreechart_plugin.jar,class=org.mathpiper.ide.jfreechartplugin.JFreeChartPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\jlog_plugin.jar,class=org.mathpiper.ide.jlogplugin.JLogPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\kappalayout.jar]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.5.9,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\LaTeXTools.jar,class=uk.co.antroy.latextools.LaTeXPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=0.1.0,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\MarkdownPlugin.jar,class=ua.pico.jedit.markdown.MarkdownPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiperide_library.jar]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiperstate_plugin.jar,class=org.mathpiper.ide.mathpiperstateplugin.MathPiperStatePlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiperstate_plugin.jar,class=org.mathpiper.ide.mathpiperstateplugin.MathPiperStatePlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiper_docs_plugin.jar,class=org.mathpiper.ide.mathpiperdocsplugin.MathPiperDocsPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiper_docs_plugin.jar,class=org.mathpiper.ide.mathpiperdocsplugin.MathPiperDocsPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiper_plugin.jar,class=org.mathpiper.ide.mathpiperplugin.MathPiperPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mathpiper_plugin.jar,class=org.mathpiper.ide.mathpiperplugin.MathPiperPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\mpreduce_plugin.jar,class=org.mathpiper.ide.mpreduceplugin.MPReducePlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\parboiled4j-0.9.9.0.jar]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=null,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\pegdown-0.8.5.4.jar]
+2:17:07 PM [AWT-EventQueue-0] [debug] PluginJAR: Opening C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\CommonControls.jar
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.projectviewer.ProjectPlugin.menu,source=null]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=3.5.1,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=3.5.1,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\QuickNotepad.jar,class=QuickNotepadPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.4,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\SideKick.jar,class=sidekick.SideKickPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.4,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\SideKick.jar,class=sidekick.SideKickPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\sqldb_plugin.jar,class=org.mathpiper.ide.sqldbplugin.SQLDBPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\threedxplormathj_plugin.jar,class=org.mathpiper.ide.threedxplormathjplugin.ThreeDXplorMathJPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\threedxplormathj_plugin.jar,class=org.mathpiper.ide.threedxplormathjplugin.ThreeDXplorMathJPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\u6502_plugin.jar,class=org.mathpiper.ide.u6502plugin.U6502Plugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,version=1.0.8,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=1.0.8,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+2:17:07 PM [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,version=4.3,source=C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\jars\wolfram_plugin.jar,class=org.mathpiper.ide.wolframplugin.WolframPlugin]
+2:17:07 PM [AWT-EventQueue-0] [message] HistoryModel: Saving history
+2:17:07 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\history" to "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\settings-backup\history~1~"
+2:17:07 PM [AWT-EventQueue-0] [message] BufferHistory: Saving C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\recent.xml
+2:17:07 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\recent.xml" to "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\settings-backup\recent.xml~1~"
+2:17:07 PM [AWT-EventQueue-0] [message] KillRing: Saving C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\killring.xml
+2:17:07 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\killring.xml" to "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\settings-backup\killring.xml~1~"
+2:17:07 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\properties" to "C:\Users\William\Desktop\Database\DataBaseSystems\mathpiperide\settings\settings-backup\properties~1~"

@@ -1,0 +1,291 @@
+v.04
+
+
+
+%mathpiper,title="RegexAssignment"
+
+
+text :=
+"
+1.   
+
+Microsoft gets a new logo for the first time since 1987 (nwsource.com)
+141 points by cleverjake 2 hours ago | 117 comments
+2.   
+
+Selling $2,000+ Worth Of My Unfinished Book (planscope.io)
+47 points by bdunn 2 hours ago | 34 comments
+3.   
+
+VMware launches Fusion 5 (appleinsider.com)
+27 points by brolewis 1 hour ago | 29 comments
+4.   
+
+Mac OS X 10.8.1 is out. (apple.com)
+9 points by mvip 18 minutes ago | 1 comment
+5.   
+
+Fleksy - Awesome new predictive text input method (fleksy.com)
+59 points by nreece 3 hours ago | 46 comments
+6.   
+
+What HN Users Use (45% Mac, 63% Chrome) (dangrossman.info)
+49 points by johnx123-up 3 hours ago | 18 comments
+7.   
+
+Parrondo's Paradox: How two ugly parents can make a beautiful baby (datagenetics.com)
+84 points by pavanlimo 5 hours ago | 32 comments
+8.   
+
+Paralympic athletes who harm themselves to perform better (bbc.co.uk)
+23 points by darrhiggs 2 hours ago | 13 comments
+9.   
+
+The innovations of Internet Explorer (nczonline.net)
+84 points by kalyanganjam 6 hours ago | 47 comments
+10.   
+
+My Paleo Media Diet (oreilly.com)
+7 points by michael_fine 47 minutes ago | 1 comment
+11.   
+
+WebEngage is serving over 100 million widget requests per month (webengage.com)
+5 points by sooperman 22 minutes ago | 2 comments
+12.   
+
+Mixing Objective-C and Ruby (clayallsopp.com)
+4 points by 10char 12 minutes ago | discuss
+13.   
+
+One-molecule-thick material has big advantages (mit.edu)
+13 points by maxko87 2 hours ago | 8 comments
+14.   
+
+Should developers be sued for security holes? (techrepublic.com)
+6 points by fwdbureau 48 minutes ago | 10 comments
+15.   
+
+Third-party compilers locked out of Windows Runtime development (itwriting.com)
+25 points by mariuz 3 hours ago | 13 comments
+16.   
+
+An IP lawyer on patents, trolls, and entrepreneurship (inc.com)
+17 points by VanL 2 hours ago | 8 comments
+17.   
+
+Using RubyMotion to Build JavaScript Based iOS Apps (willprater.me)
+22 points by jballanc 2 hours ago | 7 comments
+18.   
+
+How YC S12 Companies Make Money (imranghory.org)
+44 points by ig1 5 hours ago | 12 comments
+19.   
+
+Black Widow (dcurt.is)
+195 points by bradgessler 13 hours ago | 45 comments
+20.   
+
+California state legislature approves Location Privacy Act (arstechnica.com)
+20 points by iProject 3 hours ago | 1 comment
+21.   
+
+Introducing Tent - the decentralized social web (tent.io)
+408 points by Titanous 21 hours ago | 204 comments
+22.   
+
+Fred Wilson says venture capital funds have gotten too big (technologyreview.com)
+31 points by kevinpacheco 5 hours ago | 19 comments
+23.   
+
+Hacker News is 44% 18-24 year olds, 77% male (pingdom.com)
+126 points by luigi 12 hours ago | 74 comments
+24.   
+
+John Carmack discusses the art and science of software engineering (uw.edu)
+9 points by gb 22 minutes ago | 2 comments
+25.   
+
+What the heck does pythonic mean? (halitalptekin.tumblr.com)
+26 points by digitall 5 hours ago | 13 comments
+26.   
+
+JSON+UDP+DHT=Freedom (telehash.org)
+139 points by nmcfarl 13 hours ago | 36 comments
+27.   
+
+Twitter cuts off “find friends” access to Tumblr (marco.org)
+173 points by rsobers 15 hours ago | 68 comments
+28.   
+
+Show HN: Fowndr.com Launched - A community of startup founders (stugreen.com)
+24 points by stulogy 5 hours ago | 11 comments
+29.   
+
+Typing Practice for Programmers (typing.io)
+271 points by mofeeta 21 hours ago | 201 comments
+30.   
+
+Introduction to jQuery UI Training Course (w/ 19 free videos) (mrbool.com)
+10 points by PatriciaLopes 1 hour ago | 2 comments
+";
+
+//Number 1
+regex := "\\d\\.\\W";
+lst := RegexGet(text, regex);
+
+//Prints the length of the list of things it finds.
+Print(ConcatStrings(ToString(Length(RegexGet(text, regex))), " number of total articles"));
+
+//Number 2
+regex := "points by \\w+";
+lst := RegexGet(text, regex);
+lst2 := [];
+ForEach(s, lst) {
+	lst2 := Append(lst2, StringReplace(s, "points by ", ""));
+};
+Print("List of usernames");
+Print(lst2);
+
+//NUMBER 3
+//Points
+regex := "\\d{1,5}\\spoints";
+lst := RegexGet(text, regex);
+lst2 := [];
+ForEach(s, lst) {
+	lst2 := Append(lst2, StringToNumber(StringReplace(s, " points", "")));
+};
+Print(ConcatStrings(ToString(Maximum(lst2)), " is the max points by the user ", StringReplace(RegexGet(text, ConcatStrings(ToString(Maximum(lst2)), "\\spoints\\sby\\s\\w+"))[1], ConcatStrings(ToString(Maximum(lst2)), " points by "), "")));
+
+//NUMBER 4
+regex := "\\d{1,5}\\spoints";
+lst := RegexGet(text, regex);
+lst2 := [];
+tmpI := 0;
+num := 0;
+ForEach(s, lst) {
+	tmpI := tmpI + StringToNumber(StringReplace(s, " points", ""));
+	num ++;
+};
+tmpI := DivideN(tmpI,num);
+Print(tmpI);
+
+//NUMBER 5
+
+regex := "\\d{1,2} (minutes?|hours?)";
+times := RegexGet(text, regex);
+timesMinutes := [];
+ForEach(s, times) {
+	
+	tmpS := StringReplace(s, " minutes", "");
+	tmpS := StringReplace(tmpS, " minute", "");
+	If (Length(tmpS) <? 5) {
+		timesMinutes := Append(timesMinutes, StringToNumber(tmpS));
+	} Else {
+		tmpS := StringReplace(tmpS, " hours", "");
+		tmpS := StringReplace(tmpS, " hour", "");
+		timesMinutes := Append(timesMinutes, StringToNumber(tmpS) * 60);
+	};
+	
+	
+	
+};
+
+Print("Oldest Article in Minutes");
+Print(Maximum(timesMinutes));
+
+Print("Newest Article in Minutes");
+Print(Minimum(timesMinutes));
+
+
+//Number 6
+
+regex := "\\d{1,2} (minutes?|hours?)";
+times := RegexGet(text, regex);
+tmpI := 0;
+num := 0;
+ForEach(s, times) {
+	
+	tmpS := StringReplace(s, " minutes", "");
+	tmpS := StringReplace(tmpS, " minute", "");
+	If (Length(tmpS) <? 5) {
+		timesMinutes := Append(timesMinutes, StringToNumber(tmpS));
+		tmpS := StringToNumber(tmpS);
+	} Else {
+		tmpS := StringReplace(tmpS, " hours", "");
+		tmpS := StringReplace(tmpS, " hour", "");
+		tmpS := StringToNumber(tmpS) * 60;
+	};
+	tmpI := tmpI + tmpS;
+	num++;
+};
+
+Print(ConcatStrings("Average age of articles is ", ToString(DivideN(tmpI, num)), " minutes"));
+
+//Number 7
+
+regex := "\\d{1,3}\\scomments?";
+lst := RegexGet(text, regex);
+lstDis := RegexGet(text, "discuss");
+ForEach (s, lstDis) {
+	lst := Append(lst, "0 comments");
+};
+lst2 := [];
+ForEach (s, lst) {
+	tmpS := StringReplace(s, " comments", "");
+	tmpS := StringReplace(tmpS, " comment", "");
+	lst2 := Append(lst2, StringToNumber(tmpS));
+};
+
+
+Print(ConcatStrings("The article with the most comments has ", ToString(Maximum(lst2)), " comments"));
+
+
+//Number 8
+
+regex := "\\d{1,3}\\scomments?";
+lst := RegexGet(text, regex);
+lstDis := RegexGet(text, "discuss");
+ForEach (s, lstDis) {
+	lst := Append(lst, "0 comments");
+};
+tmpI := 0;
+num := 0;
+ForEach (s, lst) {
+	tmpS := StringReplace(s, " comments", "");
+	tmpS := StringReplace(tmpS, " comment", "");
+	tmpI := tmpI + StringToNumber(tmpS);
+	num++;
+};
+
+Print(ConcatStrings("The average amount of comments per article is ", ToString(DivideN(tmpI, num)), " comments"));
+
+%/mathpiper
+
+    %output,sequence="17",timestamp="2016-09-12 17:44:44.084",preserve="false"
+      Result: True
+      
+      Side Effects:
+      "30 number of total articles"
+      "List of usernames"
+      ["cleverjake","bdunn","brolewis","mvip","nreece","johnx123","pavanlimo","darrhiggs","kalyanganjam","michael_fine","sooperman","10char","maxko87","fwdbureau","mariuz","VanL","jballanc","ig1","bradgessler","iProject","Titanous","kevinpacheco","luigi","gb","digitall","nmcfarl","rsobers","stulogy","mofeeta","PatriciaLopes"]
+      "408 is the max points by the user Titanous"
+      69.93333333
+      "Oldest Article in Minutes"
+      1260
+      "Newest Article in Minutes"
+      12
+      "Average age of articles is 309.6333333 minutes"
+      "The article with the most comments has 204 comments"
+      "The average amount of comments per article is 34.64516129 comments"
+      
+.   %/output
+
+
+
+
+
+
+
+
+
+
